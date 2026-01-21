@@ -1,0 +1,16 @@
+[project]
+name = "terminate-parallel-demo"
+version = "0.1.0"
+description = "Demos for terminating parallel processes with guardrails"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.0.1",
+    "langchain-openai>=0.3.0",
+    "langgraph>=1.0.1",
+    "deepagents>=0.3.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = []
+
